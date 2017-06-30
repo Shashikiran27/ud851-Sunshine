@@ -24,10 +24,7 @@ import android.widget.TextView;
 
 // COMPLETED (15) Add a class called ForecastAdapter
 // COMPLETED (22) Extend RecyclerView.Adapter<ForecastAdapter.ForecastAdapterViewHolder>
-/**
- * {@link ForecastAdapter} exposes a list of weather forecasts to a
- * {@link android.support.v7.widget.RecyclerView}
- */
+
 public class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.ForecastAdapterViewHolder> {
 
     // COMPLETED (23) Create a private string array called mWeatherData

@@ -53,10 +53,7 @@ public class MainActivity extends AppCompatActivity {
         // COMPLETED (36) Delete the line where you get a reference to mWeatherTextView
 
         // COMPLETED (37) Use findViewById to get a reference to the RecyclerView
-        /*
-         * Using findViewById, we get a reference to our RecyclerView from xml. This allows us to
-         * do things like set the adapter of the RecyclerView and toggle the visibility.
-         */
+
         mRecyclerView = (RecyclerView) findViewById(R.id.recyclerview_forecast);
 
         /* This TextView is used to display errors and will be hidden if there are no errors */
